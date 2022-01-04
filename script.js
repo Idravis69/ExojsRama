@@ -111,7 +111,7 @@ if (firstName == "Sofiane" && age == 18) {
 let firstName = prompt("ecirt nom");
 let age = parseInt(prompt("ecrit age"));
 
-if (firstName == "Sofiane" && age == 18) {
+if (firstName == "Sofiane" && age > 18) {
     console.log("Welcome")
 } else if (age >= 31 && age <= 49) {
     console.log("tu est dans lintervalle")
